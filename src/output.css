@@ -610,10 +610,24 @@ video {
   justify-content: center;
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-  font-size: 3rem;
-  line-height: 1;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .junior:hover {
   opacity: 0.65;
+}
+
+@media (min-width: 768px) {
+  .junior {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .junior {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
