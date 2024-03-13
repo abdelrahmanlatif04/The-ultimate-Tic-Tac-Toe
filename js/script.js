@@ -3,8 +3,10 @@ let juniors = document.querySelectorAll(".junior");
 
 juniors.forEach((e) => {
   e.addEventListener("click", () => {
-    switchRound();
+    if(!e.textContent){
     e.textContent = round;
+    switchRound();
+  }
   });
 });
 
